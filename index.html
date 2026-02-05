@@ -1,0 +1,306 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>University Campus Portal | Prabin Upreti</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- External CSS -->
+    <link rel="stylesheet" href="style.css">
+
+    <!-- Font Awesome Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+</head>
+
+<body id="top">
+
+    <!-- ================= HEADER / NAVIGATION ================= -->
+    <header class="site-header">
+        <nav class="navbar" aria-label="Main Navigation">
+            <div class="brand">
+                <img src="kbc_logo.png" alt="Kathmandu Business Campus Logo">
+            </div>
+
+            <input type="checkbox" id="nav-toggle">
+            <label for="nav-toggle" class="nav-toggle-label" aria-label="Toggle navigation">☰</label>
+
+            <ul class="nav-links">
+                <li><a href="#top">Home</a></li>
+                <li><a href="#resume">Student Resume</a></li>
+                <li><a href="#registration">Student Registration</a></li>
+                <li><a href="#map">Campus Map</a></li>
+                <li><a href="#footer">About Us</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+
+        <!-- ================= HERO / INTRO ================= -->
+        <section class="hero">
+            <h1>University Campus Portal</h1>
+            <p>
+                An academic web project demonstrating responsive design using<br>
+                <span>Designed & Developed by Prabin Upreti</span>
+            </p>
+        </section>
+
+        <!-- ================= STUDENT RESUME ================= -->
+        <section id="resume" class="section">
+            <h2>Student Resume</h2>
+
+            <article class="resume-card">
+                <div class="resume-grid">
+
+                    <!-- LEFT COLUMN -->
+                    <div class="resume-left">
+                        <img src="Pratik.jpeg" alt="Profile photograph of Prabin Upreti">
+                        <h3>Prabin Upreti</h3>
+                        <p class="major">Bachelor of Computer Application (BCA)</p>
+
+                        <ul class="contact-info">
+                            <li>
+                                <i class="fas fa-envelope"></i>
+                                <a href="mailto:prabinupreti@email.com">pratikupreti419@email.com</a>
+                            </li>
+                            <li>
+                                <i class="fas fa-phone"></i>
+                                <a href="tel:+9779829080419">+977-9829080419</a>
+                            </li>
+                            <li>
+                                <i class="fas fa-calendar"></i> Semester: 3rd
+                            </li>
+                        </ul>
+                        <h1 class="text-black">BIO</h1>
+                        <p> I am <strong>Prabin Upreti</strong>, a passionate Bachelor of Computer Application (BCA)
+                            student
+                            at Kathmandu Business Campus. I specialize in web technologies including HTML5, CSS3, and
+                            responsive
+                            design. My academic projects focus on creating user-friendly and visually appealing web
+                            interfaces.
+                            I am enthusiastic about frontend development, UI implementation, and building practical web
+                            solutions
+                            that enhance user experience.</p>
+                        <p>
+                            In addition to my technical skills, I actively engage in campus projects and collaborative
+                            learning,
+                            striving to expand my knowledge in web development and database management. My goal is to
+                            become a
+                            skilled developer capable of delivering professional-grade web applications.
+                        </p>
+                    </div>
+
+                    <!-- RIGHT COLUMN -->
+                    <div class="resume-right">
+                        <h4>Technical Skills</h4>
+
+                        <div class="skill">
+                            <span>HTML5 & CSS3</span>
+                            <div class="bar">
+                                <div class="fill html"></div>
+                            </div>
+                        </div>
+
+                        <div class="skill">
+                            <span>Tailwind CSS</span>
+                            <div class="bar">
+                                <div class="fill tailwind"></div>
+                            </div>
+                        </div>
+
+                        <div class="skill">
+                            <span>Responsive Web Design</span>
+                            <div class="bar">
+                                <div class="fill responsive"></div>
+                            </div>
+                        </div>
+
+                        <!-- ================= PROJECTS ================= -->
+                        <div class="resume-projects">
+                            <h4>Selected Projects</h4>
+                            <div class="projects-grid">
+                                <a href="https://techzenova.com" target="_blank" rel="noopener noreferrer"
+                                    class="project-card">
+                                    <img src="zenova.svg" alt="TechZenova Project Logo" class="project-img">
+                                </a>
+
+                                <div class="project-card">
+                                    <img src="portfolio.svg" alt="Portfolio Website Logo" class="project-img">
+                                </div>
+
+                                <div class="project-card">
+                                    <img src="campusportal.svg" alt="Campus Portal Project Logo" class="project-img">
+                                </div>
+
+                                <div class="project-card">
+                                    <img src="resultsystem.svg" alt="Student Result System Project Logo"
+                                        class="project-img">
+                                </div>
+
+                                <h4 style="margin-top: 50px;">
+                                    <u>
+                                        Get connected with me
+                                    </u>
+                                </h4>
+
+                                <div class="portfolio-links">
+                                    <a href="https://www.facebook.com/pratik.upreti.79"
+                                        aria-label="Facebook"><i class="fab fa-facebook fa-2xl"></i></a>
+                                    <a href="https://www.instagram.com/pratikupreti8/" aria-label="Instagram"><i
+                                            class="fab fa-instagram fa-2xl"></i></a>
+                                    <a href="https://www.linkedin.com/in/pratik-upreti-15b902318/"
+                                        aria-label="LinkedIn"><i class="fab fa-linkedin fa-2xl"></i></a>
+                                </div>
+
+                            </div>
+
+
+                        </div>
+
+
+
+                    </div>
+
+                </div>
+            </article>
+        </section>
+
+        <!-- ================= STUDENT REGISTRATION ================= -->
+        <section id="registration" class="section">
+            <h2>Student Registration Form</h2>
+
+            <form class="registration-form" aria-label="Student Registration Form">
+
+                <fieldset>
+                    <legend>Personal Details</legend>
+
+                    <label>
+                        Full Name <span aria-hidden="true">*</span>
+                        <input type="text" required>
+                    </label>
+
+                    <label>
+                        Date of Birth <span aria-hidden="true">*</span>
+                        <input type="date" required>
+                    </label>
+
+                    <label>
+                        Gender <span aria-hidden="true">*</span>
+                        <select required>
+                            <option value="">Select</option>
+                            <option>Male</option>
+                            <option>Female</option>
+                            <option>Other</option>
+                        </select>
+                    </label>
+                </fieldset>
+
+                <fieldset>
+                    <legend>Contact Information</legend>
+
+                    <label>
+                        Address
+                        <textarea rows="3"></textarea>
+                    </label>
+
+                    <label>
+                        Email Address <span aria-hidden="true">*</span>
+                        <input type="email" required>
+                    </label>
+
+                    <label>
+                        Phone Number <span aria-hidden="true">*</span>
+                        <input type="tel" required>
+                    </label>
+                </fieldset>
+
+                <fieldset>
+                    <legend>Academic Information</legend>
+
+                    <label>
+                        Course
+                        <select id="course-select" required>
+                            <option value="">Select Course</option>
+                            <option value="BCA">BCA</option>
+                            <option value="BBS">BBS</option>
+                        </select>
+                    </label>
+
+                    <!-- BCA Semester input -->
+                    <label>
+                        Semester (for BCA)
+                        <input type="number" min="1" max="8" placeholder="Enter Semester (1-8)">
+                    </label>
+
+                    <!-- BBS Year input -->
+                    <label>
+                        Year (for BBS)
+                        <input type="number" min="1" max="4" placeholder="Enter Year (1-4)">
+                    </label>
+
+                    <label>
+                        Previous Education
+                        <input type="text" placeholder="Your previous education">
+                    </label>
+
+                    <label class="file-upload">
+                        Upload Academic Documents
+                        <input type="file">
+                    </label>
+                </fieldset>
+
+
+                <label class="checkbox">
+                    <input type="checkbox" required>
+                    I agree to the terms and conditions <span aria-hidden="true">*</span>
+                </label>
+
+                <div class="form-actions">
+                    <button type="submit">Submit Application</button>
+                    <button type="reset" class="secondary">Reset Form</button>
+                </div>
+            </form>
+        </section>
+
+        <!-- ================= CAMPUS MAP ================= -->
+        <section id="map" class="section">
+            <h2>Campus Map</h2>
+
+            <p class="map-text">
+                The campus includes academic blocks, library facilities, laboratories,
+                and administrative offices.
+            </p>
+
+            <div class="map-container">
+                <iframe src="https://www.google.com/maps?q=Kathmandu+Business+Campus&output=embed" loading="lazy"
+                    title="Kathmandu Business Campus Location">
+                </iframe>
+            </div>
+        </section>
+
+    </main>
+
+    <!-- ================= FOOTER ================= -->
+    <footer id="footer">
+        <p><strong>Kathmandu Business Campus</strong>, Kathmandu, Nepal</p>
+        <p>Email: info@kbcampus.edu.np | Phone: +977-98XXXXXXXX</p>
+
+        <div class="social" aria-label="Social Media Links">
+            <a href="https://www.facebook.com/people/Kathmandu-Business-Campus/61566588200416/" aria-label="Facebook"><i
+                    class="fab fa-facebook"></i></a>
+            <a href="https://www.instagram.com/kathmandu_b_campus" aria-label="Instagram"><i
+                    class="fab fa-instagram"></i></a>
+            <a href="https://www.linkedin.com/company/kathmandubusinesscampus/" aria-label="LinkedIn"><i
+                    class="fab fa-linkedin"></i></a>
+        </div>
+
+        <p class="copyright">
+            © 2026 Kathmandu Business Campus<br>
+            Designed & Developed by Prabin Upreti
+        </p>
+    </footer>
+
+</body>
+
+</html>
